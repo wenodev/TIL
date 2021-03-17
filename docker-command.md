@@ -38,5 +38,11 @@ sudo docker stop [name]
 ## docker 연결 및 jar 실행
 ```
 sudo docker run -it --name api-server -v $(pwd)/app/build/libs:/home/api-server openjdk:11 bash
+
+/*
+1. 로컬에서 80포트로 요청하면 실행하면 도커에선 8080이 응답
+2. 종료할때 docker 삭제
+*/
+sudo docker run -it --rm --name api-server -v $(pwd)/app/build/libs:/home/api-server -p 80:8080  openjdk:11 bash
 ```
 
