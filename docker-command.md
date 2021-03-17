@@ -35,4 +35,8 @@ sudo docker start [name]
 sudo docker stop [name]
 ```
 
+## docker 연결 및 jar 실행
+```
+sudo docker run -it --name api-server -v $(pwd)/app/build/libs:/home/api-server openjdk:11 bash
+```
 
