@@ -27,3 +27,8 @@ git merge --no-ff ahastudio-fix-typo
 ```git
 git push origin master
 ```
+
+참고자료
+1. git-scm : https://git-scm.com/docs/git-checkout
+2. git-scm : https://git-scm.com/docs/git-merge
+3. 누구나 쉽게 이해할 수 있는 Git입문 : https://backlog.com/git-tutorial/kr/stepup/stepup1_4.html
