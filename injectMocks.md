@@ -27,7 +27,7 @@ private ProductService productService;
 
 ## 결론
 - 첫번째 방법이 명시적이라 학습하는데 좋다고 생각한다.
-- 변경 후 코드를 사용하려고 하면 mock 초기화 코드를 꼭 작성해야한다.
+- **변경 후 코드를 사용하려고 하면 mock 초기화 코드를 꼭 작성해야한다.**
 ```java
 @BeforeEach
 public void setUp(){
